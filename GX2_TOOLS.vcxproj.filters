@@ -1,0 +1,880 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;moc;h;def;odl;idl;res;</Extensions>
+    </Filter>
+    <Filter Include="Distribution Files">
+      <UniqueIdentifier>{B83CAF91-C7BF-462F-B76C-EA11631F866C}</UniqueIdentifier>
+      <Extensions>*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="G2G">
+      <UniqueIdentifier>{e0bb3b6e-0ff6-4a39-bc95-bd5e3a353712}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="G2G\filetree">
+      <UniqueIdentifier>{dd9f0749-8df8-4011-8595-22aa093fc7e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="G2G\forms">
+      <UniqueIdentifier>{9757a70a-841a-4baf-bb8b-a02e3e3cac67}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="G2G\gi">
+      <UniqueIdentifier>{e6e115f3-decf-4e9b-82b4-e2d8756eaeb2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="G2G\sh">
+      <UniqueIdentifier>{a6e16686-0107-4d73-bbaa-1f697e5f2aed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="G2G\res">
+      <UniqueIdentifier>{598e8fb0-8104-47b9-a99a-6116f54ea05e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="G2G\tooldatabase">
+      <UniqueIdentifier>{269853b5-ea56-4e75-9b32-a51bb971ebbf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="G2G\transtions">
+      <UniqueIdentifier>{b3768633-2112-4f34-b75b-a4de234eac02}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="G2G\forms\drillform">
+      <UniqueIdentifier>{b30a110a-29c6-495c-bfba-547b780d88ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="G2G\forms\thermal">
+      <UniqueIdentifier>{1c6e7820-149c-4444-b852-d4b68d3642af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="G2G\res\qtreeviewstylesheet">
+      <UniqueIdentifier>{8303a7ce-082d-454d-b526-c24632e03825}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="G2G\res\tool">
+      <UniqueIdentifier>{2fe400af-fbab-4408-8131-cf5c94bf9818}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="G2G\res\tooloath">
+      <UniqueIdentifier>{bbe864e7-5926-4b84-88ea-1c9a0395e3eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gcode">
+      <UniqueIdentifier>{58b6f07e-a891-45a3-b208-fb32b557a3be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="clipper">
+      <UniqueIdentifier>{aaa4a8bd-00d6-4c2b-ae1f-dba94b82538f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="excellon">
+      <UniqueIdentifier>{5763533b-b5e8-4181-ac8a-e42bb9e4caf5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gerber">
+      <UniqueIdentifier>{29da77b5-c128-4fff-8175-ca8ced98e8c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gcode\voroni">
+      <UniqueIdentifier>{3030dcf8-df89-46bb-a647-346b44259cfa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="file">
+      <UniqueIdentifier>{b3d11332-ebd1-42ad-8313-20f431df9741}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="graphicsview">
+      <UniqueIdentifier>{f7f87dfb-e8d0-41a8-8f6b-5a0f6209d10e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GTE_Win">
+      <UniqueIdentifier>{f0fc560d-8924-46c7-86dc-d062fe465bb1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="icons">
+      <UniqueIdentifier>{e00d3cfe-6800-4222-bd30-85cb46b88bd4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="icons\breeze">
+      <UniqueIdentifier>{d900238b-3606-41f1-a268-4a9473b62804}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="G2G\256.png">
+      <Filter>G2G</Filter>
+    </Image>
+    <Image Include="G2G\myapp.ico">
+      <Filter>G2G</Filter>
+    </Image>
+    <Image Include="G2G\res\256.png">
+      <Filter>G2G\res</Filter>
+    </Image>
+    <Image Include="G2G\res\tool\drill.png">
+      <Filter>G2G\res\tool</Filter>
+    </Image>
+    <Image Include="G2G\res\tool\endmill.png">
+      <Filter>G2G\res\tool</Filter>
+    </Image>
+    <Image Include="G2G\res\tool\engraving.png">
+      <Filter>G2G\res\tool</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="G2G\aboutform.cpp">
+      <Filter>G2G</Filter>
+    </ClCompile>
+    <ClCompile Include="G2G\colorselector.cpp">
+      <Filter>G2G</Filter>
+    </ClCompile>
+    <ClCompile Include="G2G\doublespinbox.cpp">
+      <Filter>G2G</Filter>
+    </ClCompile>
+    <ClCompile Include="G2G\main.cpp">
+      <Filter>G2G</Filter>
+    </ClCompile>
+    <ClCompile Include="G2G\mainwindow.cpp">
+      <Filter>G2G</Filter>
+    </ClCompile>
+    <ClCompile Include="G2G\point.cpp">
+      <Filter>G2G</Filter>
+    </ClCompile>
+    <ClCompile Include="G2G\project.cpp">
+      <Filter>G2G</Filter>
+    </ClCompile>
+    <ClCompile Include="G2G\settings.cpp">
+      <Filter>G2G</Filter>
+    </ClCompile>
+    <ClCompile Include="G2G\settingsdialog.cpp">
+      <Filter>G2G</Filter>
+    </ClCompile>
+    <ClCompile Include="G2G\filetree\abstractnode.cpp">
+      <Filter>G2G\filetree</Filter>
+    </ClCompile>
+    <ClCompile Include="G2G\filetree\drillnode.cpp">
+      <Filter>G2G\filetree</Filter>
+    </ClCompile>
+    <ClCompile Include="G2G\filetree\filemodel.cpp">
+      <Filter>G2G\filetree</Filter>
+    </ClCompile>
+    <ClCompile Include="G2G\filetree\foldernode.cpp">
+      <Filter>G2G\filetree</Filter>
+    </ClCompile>
+    <ClCompile Include="G2G\filetree\gcodenode.cpp">
+      <Filter>G2G\filetree</Filter>
+    </ClCompile>
+    <ClCompile Include="G2G\filetree\gerbernode.cpp">
+      <Filter>G2G\filetree</Filter>
+    </ClCompile>
+    <ClCompile Include="G2G\filetree\layerdelegate.cpp">
+      <Filter>G2G\filetree</Filter>
+    </ClCompile>
+    <ClCompile Include="G2G\filetree\treeview.cpp">
+      <Filter>G2G\filetree</Filter>
+    </ClCompile>
+    <ClCompile Include="G2G\forms\drillform\drillform.cpp">
+      <Filter>G2G\forms\drillform</Filter>
+    </ClCompile>
+    <ClCompile Include="G2G\forms\drillform\drillmodel.cpp">
+      <Filter>G2G\forms\drillform</Filter>
+    </ClCompile>
+    <ClCompile Include="G2G\forms\drillform\drillpreviewgi.cpp">
+      <Filter>G2G\forms\drillform</Filter>
+    </ClCompile>
+    <ClCompile Include="G2G\forms\thermal\thermaldelegate.cpp">
+      <Filter>G2G\forms\thermal</Filter>
+    </ClCompile>
+    <ClCompile Include="G2G\forms\thermal\thermalform.cpp">
+      <Filter>G2G\forms\thermal</Filter>
+    </ClCompile>
+    <ClCompile Include="G2G\forms\thermal\thermalmodel.cpp">
+      <Filter>G2G\forms\thermal</Filter>
+    </ClCompile>
+    <ClCompile Include="G2G\forms\thermal\thermalnode.cpp">
+      <Filter>G2G\forms\thermal</Filter>
+    </ClCompile>
+    <ClCompile Include="G2G\forms\thermal\thermalpreviewitem.cpp">
+      <Filter>G2G\forms\thermal</Filter>
+    </ClCompile>
+    <ClCompile Include="G2G\sh\circle.cpp">
+      <Filter>G2G\sh</Filter>
+    </ClCompile>
+    <ClCompile Include="G2G\sh\constructor.cpp">
+      <Filter>G2G\sh</Filter>
+    </ClCompile>
+    <ClCompile Include="G2G\sh\handler.cpp">
+      <Filter>G2G\sh</Filter>
+    </ClCompile>
+    <ClCompile Include="G2G\sh\rectangle.cpp">
+      <Filter>G2G\sh</Filter>
+    </ClCompile>
+    <ClCompile Include="G2G\sh\sh.cpp">
+      <Filter>G2G\sh</Filter>
+    </ClCompile>
+    <ClCompile Include="G2G\sh\shape.cpp">
+      <Filter>G2G\sh</Filter>
+    </ClCompile>
+    <ClCompile Include="G2G\tooldatabase\tool.cpp">
+      <Filter>G2G\tooldatabase</Filter>
+    </ClCompile>
+    <ClCompile Include="G2G\tooldatabase\tooldatabase.cpp">
+      <Filter>G2G\tooldatabase</Filter>
+    </ClCompile>
+    <ClCompile Include="G2G\tooldatabase\tooleditdialog.cpp">
+      <Filter>G2G\tooldatabase</Filter>
+    </ClCompile>
+    <ClCompile Include="G2G\tooldatabase\tooleditform.cpp">
+      <Filter>G2G\tooldatabase</Filter>
+    </ClCompile>
+    <ClCompile Include="G2G\tooldatabase\toolitem.cpp">
+      <Filter>G2G\tooldatabase</Filter>
+    </ClCompile>
+    <ClCompile Include="G2G\tooldatabase\toolmodel.cpp">
+      <Filter>G2G\tooldatabase</Filter>
+    </ClCompile>
+    <ClCompile Include="G2G\tooldatabase\tooltreeview.cpp">
+      <Filter>G2G\tooldatabase</Filter>
+    </ClCompile>
+    <ClCompile Include="clipper\clipper.cpp">
+      <Filter>clipper</Filter>
+    </ClCompile>
+    <ClCompile Include="clipper\line.cpp">
+      <Filter>clipper</Filter>
+    </ClCompile>
+    <ClCompile Include="clipper\myclipper.cpp">
+      <Filter>clipper</Filter>
+    </ClCompile>
+    <ClCompile Include="excellon\excellondialog.cpp">
+      <Filter>excellon</Filter>
+    </ClCompile>
+    <ClCompile Include="excellon\exfile.cpp">
+      <Filter>excellon</Filter>
+    </ClCompile>
+    <ClCompile Include="excellon\exformatstate.cpp">
+      <Filter>excellon</Filter>
+    </ClCompile>
+    <ClCompile Include="excellon\exparser.cpp">
+      <Filter>excellon</Filter>
+    </ClCompile>
+    <ClCompile Include="gerber\gbraperture.cpp">
+      <Filter>gerber</Filter>
+    </ClCompile>
+    <ClCompile Include="gerber\gbrfile.cpp">
+      <Filter>gerber</Filter>
+    </ClCompile>
+    <ClCompile Include="gerber\gbrparser.cpp">
+      <Filter>gerber</Filter>
+    </ClCompile>
+    <ClCompile Include="gerber\mathparser.cpp">
+      <Filter>gerber</Filter>
+    </ClCompile>
+    <ClCompile Include="gcode\voroni\jc_voronoi.cpp">
+      <Filter>gcode\voroni</Filter>
+    </ClCompile>
+    <ClCompile Include="file\abstractfile.cpp">
+      <Filter>file</Filter>
+    </ClCompile>
+    <ClCompile Include="file\parser.cpp">
+      <Filter>file</Filter>
+    </ClCompile>
+    <ClCompile Include="graphicsview\edid.cpp">
+      <Filter>graphicsview</Filter>
+    </ClCompile>
+    <ClCompile Include="graphicsview\graphicsview.cpp">
+      <Filter>graphicsview</Filter>
+    </ClCompile>
+    <ClCompile Include="graphicsview\qdruler.cpp">
+      <Filter>graphicsview</Filter>
+    </ClCompile>
+    <ClCompile Include="graphicsview\scene.cpp">
+      <Filter>graphicsview</Filter>
+    </ClCompile>
+    <ClCompile Include="..\build-GX2_TOOLS-Desktop_Qt_5_14_1_MSVC2017_64bit-Debug\G2G\debug\moc_aboutform.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\build-GX2_TOOLS-Desktop_Qt_5_14_1_MSVC2017_64bit-Debug\G2G\debug\moc_application.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\build-GX2_TOOLS-Desktop_Qt_5_14_1_MSVC2017_64bit-Debug\G2G\debug\moc_bridgeitem.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\build-GX2_TOOLS-Desktop_Qt_5_14_1_MSVC2017_64bit-Debug\G2G\debug\moc_colorselector.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\build-GX2_TOOLS-Desktop_Qt_5_14_1_MSVC2017_64bit-Debug\G2G\debug\moc_depthform.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\build-GX2_TOOLS-Desktop_Qt_5_14_1_MSVC2017_64bit-Debug\G2G\debug\moc_drillform.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\build-GX2_TOOLS-Desktop_Qt_5_14_1_MSVC2017_64bit-Debug\G2G\debug\moc_drillmodel.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\build-GX2_TOOLS-Desktop_Qt_5_14_1_MSVC2017_64bit-Debug\G2G\debug\moc_drillnode.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\build-GX2_TOOLS-Desktop_Qt_5_14_1_MSVC2017_64bit-Debug\G2G\debug\moc_excellondialog.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\build-GX2_TOOLS-Desktop_Qt_5_14_1_MSVC2017_64bit-Debug\G2G\debug\moc_exparser.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\build-GX2_TOOLS-Desktop_Qt_5_14_1_MSVC2017_64bit-Debug\G2G\debug\moc_filemodel.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\build-GX2_TOOLS-Desktop_Qt_5_14_1_MSVC2017_64bit-Debug\G2G\debug\moc_formsutil.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\build-GX2_TOOLS-Desktop_Qt_5_14_1_MSVC2017_64bit-Debug\G2G\debug\moc_gbrparser.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\build-GX2_TOOLS-Desktop_Qt_5_14_1_MSVC2017_64bit-Debug\G2G\debug\moc_gccreator.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\build-GX2_TOOLS-Desktop_Qt_5_14_1_MSVC2017_64bit-Debug\G2G\debug\moc_gcodepropertiesform.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\build-GX2_TOOLS-Desktop_Qt_5_14_1_MSVC2017_64bit-Debug\G2G\debug\moc_gerbernode.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\build-GX2_TOOLS-Desktop_Qt_5_14_1_MSVC2017_64bit-Debug\G2G\debug\moc_graphicsview.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\build-GX2_TOOLS-Desktop_Qt_5_14_1_MSVC2017_64bit-Debug\G2G\debug\moc_layerdelegate.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\build-GX2_TOOLS-Desktop_Qt_5_14_1_MSVC2017_64bit-Debug\G2G\debug\moc_mainwindow.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\build-GX2_TOOLS-Desktop_Qt_5_14_1_MSVC2017_64bit-Debug\G2G\debug\moc_parser.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\build-GX2_TOOLS-Desktop_Qt_5_14_1_MSVC2017_64bit-Debug\G2G\debug\moc_profileform.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\build-GX2_TOOLS-Desktop_Qt_5_14_1_MSVC2017_64bit-Debug\G2G\debug\moc_project.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\build-GX2_TOOLS-Desktop_Qt_5_14_1_MSVC2017_64bit-Debug\G2G\debug\moc_qdruler.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\build-GX2_TOOLS-Desktop_Qt_5_14_1_MSVC2017_64bit-Debug\G2G\debug\moc_settingsdialog.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\build-GX2_TOOLS-Desktop_Qt_5_14_1_MSVC2017_64bit-Debug\G2G\debug\moc_thermaldelegate.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\build-GX2_TOOLS-Desktop_Qt_5_14_1_MSVC2017_64bit-Debug\G2G\debug\moc_thermalform.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\build-GX2_TOOLS-Desktop_Qt_5_14_1_MSVC2017_64bit-Debug\G2G\debug\moc_thermalmodel.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\build-GX2_TOOLS-Desktop_Qt_5_14_1_MSVC2017_64bit-Debug\G2G\debug\moc_tooldatabase.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\build-GX2_TOOLS-Desktop_Qt_5_14_1_MSVC2017_64bit-Debug\G2G\debug\moc_tooleditdialog.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\build-GX2_TOOLS-Desktop_Qt_5_14_1_MSVC2017_64bit-Debug\G2G\debug\moc_tooleditform.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\build-GX2_TOOLS-Desktop_Qt_5_14_1_MSVC2017_64bit-Debug\G2G\debug\moc_toolmodel.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\build-GX2_TOOLS-Desktop_Qt_5_14_1_MSVC2017_64bit-Debug\G2G\debug\moc_tooltreeview.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\build-GX2_TOOLS-Desktop_Qt_5_14_1_MSVC2017_64bit-Debug\G2G\debug\moc_treeview.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\build-GX2_TOOLS-Desktop_Qt_5_14_1_MSVC2017_64bit-Debug\G2G\debug\moc_voronoiform.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\build-GX2_TOOLS-Desktop_Qt_5_14_1_MSVC2017_64bit-Debug\G2G\debug\qrc_resources.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="G2G\forms\depthform.cpp">
+      <Filter>G2G\forms</Filter>
+    </ClCompile>
+    <ClCompile Include="G2G\forms\formsutil.cpp">
+      <Filter>G2G\forms</Filter>
+    </ClCompile>
+    <ClCompile Include="G2G\forms\gcodepropertiesform.cpp">
+      <Filter>G2G\forms</Filter>
+    </ClCompile>
+    <ClCompile Include="G2G\forms\pocketoffsetform.cpp">
+      <Filter>G2G\forms</Filter>
+    </ClCompile>
+    <ClCompile Include="G2G\forms\pocketrasterform.cpp">
+      <Filter>G2G\forms</Filter>
+    </ClCompile>
+    <ClCompile Include="G2G\forms\profileform.cpp">
+      <Filter>G2G\forms</Filter>
+    </ClCompile>
+    <ClCompile Include="G2G\forms\toolname.cpp">
+      <Filter>G2G\forms</Filter>
+    </ClCompile>
+    <ClCompile Include="G2G\forms\voronoiform.cpp">
+      <Filter>G2G\forms</Filter>
+    </ClCompile>
+    <ClCompile Include="G2G\gi\aperturepathitem.cpp">
+      <Filter>G2G\gi</Filter>
+    </ClCompile>
+    <ClCompile Include="G2G\gi\bridgeitem.cpp">
+      <Filter>G2G\gi</Filter>
+    </ClCompile>
+    <ClCompile Include="G2G\gi\componentitem.cpp">
+      <Filter>G2G\gi</Filter>
+    </ClCompile>
+    <ClCompile Include="G2G\gi\drillitem.cpp">
+      <Filter>G2G\gi</Filter>
+    </ClCompile>
+    <ClCompile Include="G2G\gi\gerberitem.cpp">
+      <Filter>G2G\gi</Filter>
+    </ClCompile>
+    <ClCompile Include="G2G\gi\graphicsitem.cpp">
+      <Filter>G2G\gi</Filter>
+    </ClCompile>
+    <ClCompile Include="G2G\gi\itemgroup.cpp">
+      <Filter>G2G\gi</Filter>
+    </ClCompile>
+    <ClCompile Include="G2G\gi\pathitem.cpp">
+      <Filter>G2G\gi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\build-GX2_TOOLS-Desktop_Qt_5_14_1_MSVC2017_64bit-Debug\G2G\debug\moc_pocketrasterform.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\build-GX2_TOOLS-Desktop_Qt_5_14_1_MSVC2017_64bit-Debug\G2G\debug\moc_pocketoffsetform.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gcode\gccreator.cpp">
+      <Filter>gcode</Filter>
+    </ClCompile>
+    <ClCompile Include="gcode\gcfile.cpp">
+      <Filter>gcode</Filter>
+    </ClCompile>
+    <ClCompile Include="gcode\gcpocketoffset.cpp">
+      <Filter>gcode</Filter>
+    </ClCompile>
+    <ClCompile Include="gcode\gcpocketraster.cpp">
+      <Filter>gcode</Filter>
+    </ClCompile>
+    <ClCompile Include="gcode\gcprofile.cpp">
+      <Filter>gcode</Filter>
+    </ClCompile>
+    <ClCompile Include="gcode\gcthermal.cpp">
+      <Filter>gcode</Filter>
+    </ClCompile>
+    <ClCompile Include="gcode\gcvoronoi.cpp">
+      <Filter>gcode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\build-GX2_TOOLS-Desktop_Qt_5_14_1_MSVC2017_64bit-Debug\G2G\debug\moc_toolname.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gerber\gbrattributes.cpp">
+      <Filter>gerber</Filter>
+    </ClCompile>
+    <ClCompile Include="gerber\gbrcomponent.cpp">
+      <Filter>gerber</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="G2G\aboutform.h">
+      <Filter>G2G</Filter>
+    </ClInclude>
+    <ClInclude Include="G2G\application.h">
+      <Filter>G2G</Filter>
+    </ClInclude>
+    <ClInclude Include="G2G\colorselector.h">
+      <Filter>G2G</Filter>
+    </ClInclude>
+    <ClInclude Include="G2G\datastream.h">
+      <Filter>G2G</Filter>
+    </ClInclude>
+    <ClInclude Include="G2G\doublespinbox.h">
+      <Filter>G2G</Filter>
+    </ClInclude>
+    <ClInclude Include="G2G\mainwindow.h">
+      <Filter>G2G</Filter>
+    </ClInclude>
+    <ClInclude Include="G2G\openingdialog.h">
+      <Filter>G2G</Filter>
+    </ClInclude>
+    <ClInclude Include="G2G\point.h">
+      <Filter>G2G</Filter>
+    </ClInclude>
+    <ClInclude Include="G2G\project.h">
+      <Filter>G2G</Filter>
+    </ClInclude>
+    <ClInclude Include="G2G\settings.h">
+      <Filter>G2G</Filter>
+    </ClInclude>
+    <ClInclude Include="G2G\settingsdialog.h">
+      <Filter>G2G</Filter>
+    </ClInclude>
+    <ClInclude Include="G2G\version.h">
+      <Filter>G2G</Filter>
+    </ClInclude>
+    <ClInclude Include="G2G\filetree\abstractnode.h">
+      <Filter>G2G\filetree</Filter>
+    </ClInclude>
+    <ClInclude Include="G2G\filetree\drillnode.h">
+      <Filter>G2G\filetree</Filter>
+    </ClInclude>
+    <ClInclude Include="G2G\filetree\filemodel.h">
+      <Filter>G2G\filetree</Filter>
+    </ClInclude>
+    <ClInclude Include="G2G\filetree\foldernode.h">
+      <Filter>G2G\filetree</Filter>
+    </ClInclude>
+    <ClInclude Include="G2G\filetree\gcodenode.h">
+      <Filter>G2G\filetree</Filter>
+    </ClInclude>
+    <ClInclude Include="G2G\filetree\gerbernode.h">
+      <Filter>G2G\filetree</Filter>
+    </ClInclude>
+    <ClInclude Include="G2G\filetree\layerdelegate.h">
+      <Filter>G2G\filetree</Filter>
+    </ClInclude>
+    <ClInclude Include="G2G\filetree\treeview.h">
+      <Filter>G2G\filetree</Filter>
+    </ClInclude>
+    <ClInclude Include="G2G\forms\drillform\drillform.h">
+      <Filter>G2G\forms\drillform</Filter>
+    </ClInclude>
+    <ClInclude Include="G2G\forms\drillform\drillmodel.h">
+      <Filter>G2G\forms\drillform</Filter>
+    </ClInclude>
+    <ClInclude Include="G2G\forms\drillform\drillpreviewgi.h">
+      <Filter>G2G\forms\drillform</Filter>
+    </ClInclude>
+    <ClInclude Include="G2G\forms\thermal\thermaldelegate.h">
+      <Filter>G2G\forms\thermal</Filter>
+    </ClInclude>
+    <ClInclude Include="G2G\forms\thermal\thermalform.h">
+      <Filter>G2G\forms\thermal</Filter>
+    </ClInclude>
+    <ClInclude Include="G2G\forms\thermal\thermalmodel.h">
+      <Filter>G2G\forms\thermal</Filter>
+    </ClInclude>
+    <ClInclude Include="G2G\forms\thermal\thermalnode.h">
+      <Filter>G2G\forms\thermal</Filter>
+    </ClInclude>
+    <ClInclude Include="G2G\forms\thermal\thermalpreviewitem.h">
+      <Filter>G2G\forms\thermal</Filter>
+    </ClInclude>
+    <ClInclude Include="G2G\sh\circle.h">
+      <Filter>G2G\sh</Filter>
+    </ClInclude>
+    <ClInclude Include="G2G\sh\constructor.h">
+      <Filter>G2G\sh</Filter>
+    </ClInclude>
+    <ClInclude Include="G2G\sh\handler.h">
+      <Filter>G2G\sh</Filter>
+    </ClInclude>
+    <ClInclude Include="G2G\sh\rectangle.h">
+      <Filter>G2G\sh</Filter>
+    </ClInclude>
+    <ClInclude Include="G2G\sh\sh.h">
+      <Filter>G2G\sh</Filter>
+    </ClInclude>
+    <ClInclude Include="G2G\sh\shape.h">
+      <Filter>G2G\sh</Filter>
+    </ClInclude>
+    <ClInclude Include="G2G\tooldatabase\tool.h">
+      <Filter>G2G\tooldatabase</Filter>
+    </ClInclude>
+    <ClInclude Include="G2G\tooldatabase\tooldatabase.h">
+      <Filter>G2G\tooldatabase</Filter>
+    </ClInclude>
+    <ClInclude Include="G2G\tooldatabase\tooleditdialog.h">
+      <Filter>G2G\tooldatabase</Filter>
+    </ClInclude>
+    <ClInclude Include="G2G\tooldatabase\tooleditform.h">
+      <Filter>G2G\tooldatabase</Filter>
+    </ClInclude>
+    <ClInclude Include="G2G\tooldatabase\toolitem.h">
+      <Filter>G2G\tooldatabase</Filter>
+    </ClInclude>
+    <ClInclude Include="G2G\tooldatabase\toolmodel.h">
+      <Filter>G2G\tooldatabase</Filter>
+    </ClInclude>
+    <ClInclude Include="G2G\tooldatabase\tooltreeview.h">
+      <Filter>G2G\tooldatabase</Filter>
+    </ClInclude>
+    <ClInclude Include="clipper\clipper.hpp">
+      <Filter>clipper</Filter>
+    </ClInclude>
+    <ClInclude Include="clipper\line.h">
+      <Filter>clipper</Filter>
+    </ClInclude>
+    <ClInclude Include="clipper\myclipper.h">
+      <Filter>clipper</Filter>
+    </ClInclude>
+    <ClInclude Include="excellon\excellon.h">
+      <Filter>excellon</Filter>
+    </ClInclude>
+    <ClInclude Include="excellon\excellondialog.h">
+      <Filter>excellon</Filter>
+    </ClInclude>
+    <ClInclude Include="excellon\exfile.h">
+      <Filter>excellon</Filter>
+    </ClInclude>
+    <ClInclude Include="excellon\exparser.h">
+      <Filter>excellon</Filter>
+    </ClInclude>
+    <ClInclude Include="excellon\extypes.h">
+      <Filter>excellon</Filter>
+    </ClInclude>
+    <ClInclude Include="gerber\gbraperture.h">
+      <Filter>gerber</Filter>
+    </ClInclude>
+    <ClInclude Include="gerber\gbrfile.h">
+      <Filter>gerber</Filter>
+    </ClInclude>
+    <ClInclude Include="gerber\gbrparser.h">
+      <Filter>gerber</Filter>
+    </ClInclude>
+    <ClInclude Include="gerber\gbrtypes.h">
+      <Filter>gerber</Filter>
+    </ClInclude>
+    <ClInclude Include="gerber\mathparser.h">
+      <Filter>gerber</Filter>
+    </ClInclude>
+    <ClInclude Include="gcode\voroni\jc_voronoi.h">
+      <Filter>gcode\voroni</Filter>
+    </ClInclude>
+    <ClInclude Include="file\abstractfile.h">
+      <Filter>file</Filter>
+    </ClInclude>
+    <ClInclude Include="file\parser.h">
+      <Filter>file</Filter>
+    </ClInclude>
+    <ClInclude Include="graphicsview\edid.h">
+      <Filter>graphicsview</Filter>
+    </ClInclude>
+    <ClInclude Include="graphicsview\graphicsview.h">
+      <Filter>graphicsview</Filter>
+    </ClInclude>
+    <ClInclude Include="graphicsview\qdruler.h">
+      <Filter>graphicsview</Filter>
+    </ClInclude>
+    <ClInclude Include="graphicsview\scene.h">
+      <Filter>graphicsview</Filter>
+    </ClInclude>
+    <ClInclude Include="..\build-GX2_TOOLS-Desktop_Qt_5_14_1_MSVC2017_64bit-Debug\G2G\debug\moc_predefs.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="G2G\forms\depthform.h">
+      <Filter>G2G\forms</Filter>
+    </ClInclude>
+    <ClInclude Include="G2G\forms\formsutil.h">
+      <Filter>G2G\forms</Filter>
+    </ClInclude>
+    <ClInclude Include="G2G\forms\gcodepropertiesform.h">
+      <Filter>G2G\forms</Filter>
+    </ClInclude>
+    <ClInclude Include="G2G\forms\pocketoffsetform.h">
+      <Filter>G2G\forms</Filter>
+    </ClInclude>
+    <ClInclude Include="G2G\forms\pocketrasterform.h">
+      <Filter>G2G\forms</Filter>
+    </ClInclude>
+    <ClInclude Include="G2G\forms\profileform.h">
+      <Filter>G2G\forms</Filter>
+    </ClInclude>
+    <ClInclude Include="G2G\forms\toolname.h">
+      <Filter>G2G\forms</Filter>
+    </ClInclude>
+    <ClInclude Include="G2G\forms\voronoiform.h">
+      <Filter>G2G\forms</Filter>
+    </ClInclude>
+    <ClInclude Include="G2G\gi\aperturepathitem.h">
+      <Filter>G2G\gi</Filter>
+    </ClInclude>
+    <ClInclude Include="G2G\gi\bridgeitem.h">
+      <Filter>G2G\gi</Filter>
+    </ClInclude>
+    <ClInclude Include="G2G\gi\componentitem.h">
+      <Filter>G2G\gi</Filter>
+    </ClInclude>
+    <ClInclude Include="G2G\gi\drillitem.h">
+      <Filter>G2G\gi</Filter>
+    </ClInclude>
+    <ClInclude Include="G2G\gi\gerberitem.h">
+      <Filter>G2G\gi</Filter>
+    </ClInclude>
+    <ClInclude Include="G2G\gi\graphicsitem.h">
+      <Filter>G2G\gi</Filter>
+    </ClInclude>
+    <ClInclude Include="G2G\gi\itemgroup.h">
+      <Filter>G2G\gi</Filter>
+    </ClInclude>
+    <ClInclude Include="G2G\gi\pathitem.h">
+      <Filter>G2G\gi</Filter>
+    </ClInclude>
+    <ClInclude Include="gcode\gccreator.h">
+      <Filter>gcode</Filter>
+    </ClInclude>
+    <ClInclude Include="gcode\gcfile.h">
+      <Filter>gcode</Filter>
+    </ClInclude>
+    <ClInclude Include="gcode\gcpocketoffset.h">
+      <Filter>gcode</Filter>
+    </ClInclude>
+    <ClInclude Include="gcode\gcpocketraster.h">
+      <Filter>gcode</Filter>
+    </ClInclude>
+    <ClInclude Include="gcode\gcprofile.h">
+      <Filter>gcode</Filter>
+    </ClInclude>
+    <ClInclude Include="gcode\gcthermal.h">
+      <Filter>gcode</Filter>
+    </ClInclude>
+    <ClInclude Include="gcode\gctypes.h">
+      <Filter>gcode</Filter>
+    </ClInclude>
+    <ClInclude Include="gcode\gcvoronoi.h">
+      <Filter>gcode</Filter>
+    </ClInclude>
+    <ClInclude Include="gerber\gbrattributes.h">
+      <Filter>gerber</Filter>
+    </ClInclude>
+    <ClInclude Include="gerber\gbrcomponent.h">
+      <Filter>gerber</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="G2G\aboutform.ui">
+      <Filter>G2G</Filter>
+    </None>
+    <None Include="G2G\colorselector.ui">
+      <Filter>G2G</Filter>
+    </None>
+    <None Include="G2G\colorsetup.ui">
+      <Filter>G2G</Filter>
+    </None>
+    <None Include="G2G\G2G.pro">
+      <Filter>G2G</Filter>
+    </None>
+    <None Include="G2G\G2G_TR.pro">
+      <Filter>G2G</Filter>
+    </None>
+    <None Include="G2G\mainwindow.ui">
+      <Filter>G2G</Filter>
+    </None>
+    <None Include="G2G\settingsdialog.ui">
+      <Filter>G2G</Filter>
+    </None>
+    <None Include="G2G\forms\drillform\drillform.ui">
+      <Filter>G2G\forms\drillform</Filter>
+    </None>
+    <None Include="G2G\forms\thermal\thermalform.ui">
+      <Filter>G2G\forms\thermal</Filter>
+    </None>
+    <None Include="G2G\res\qtreeviewstylesheet\QTreeView.qss">
+      <Filter>G2G\res\qtreeviewstylesheet</Filter>
+    </None>
+    <None Include="G2G\res\resources.qrc">
+      <Filter>G2G\res</Filter>
+    </None>
+    <None Include="G2G\res\toolpath\pock_offs_climb.svg">
+      <Filter>G2G\res\tooloath</Filter>
+    </None>
+    <None Include="G2G\res\toolpath\pock_offs_conv.svg">
+      <Filter>G2G\res\tooloath</Filter>
+    </None>
+    <None Include="G2G\res\toolpath\pock_rast_climb.svg">
+      <Filter>G2G\res\tooloath</Filter>
+    </None>
+    <None Include="G2G\res\toolpath\pock_rast_conv.svg">
+      <Filter>G2G\res\tooloath</Filter>
+    </None>
+    <None Include="G2G\res\toolpath\prof_in_climb.svg">
+      <Filter>G2G\res\tooloath</Filter>
+    </None>
+    <None Include="G2G\res\toolpath\prof_in_conv.svg">
+      <Filter>G2G\res\tooloath</Filter>
+    </None>
+    <None Include="G2G\res\toolpath\prof_on_climb.svg">
+      <Filter>G2G\res\tooloath</Filter>
+    </None>
+    <None Include="G2G\res\toolpath\prof_on_conv.svg">
+      <Filter>G2G\res\tooloath</Filter>
+    </None>
+    <None Include="G2G\res\toolpath\prof_out_climb.svg">
+      <Filter>G2G\res\tooloath</Filter>
+    </None>
+    <None Include="G2G\res\toolpath\prof_out_conv.svg">
+      <Filter>G2G\res\tooloath</Filter>
+    </None>
+    <None Include="G2G\tooldatabase\tooldatabase.ui">
+      <Filter>G2G\tooldatabase</Filter>
+    </None>
+    <None Include="G2G\tooldatabase\tooleditdialog.ui">
+      <Filter>G2G\tooldatabase</Filter>
+    </None>
+    <None Include="G2G\tooldatabase\tooleditform.ui">
+      <Filter>G2G\tooldatabase</Filter>
+    </None>
+    <None Include="G2G\translations\g2g_en.qm">
+      <Filter>G2G\transtions</Filter>
+    </None>
+    <None Include="G2G\translations\g2g_en.ts">
+      <Filter>G2G\transtions</Filter>
+    </None>
+    <None Include="G2G\translations\g2g_ru.qm">
+      <Filter>G2G\transtions</Filter>
+    </None>
+    <None Include="G2G\translations\g2g_ru.ts">
+      <Filter>G2G\transtions</Filter>
+    </None>
+    <None Include="G2G\translations\qt_ru.qm">
+      <Filter>G2G\transtions</Filter>
+    </None>
+    <None Include="G2G\translations\qtbase_ru.qm">
+      <Filter>G2G\transtions</Filter>
+    </None>
+    <None Include="clipper\clipper.pri">
+      <Filter>clipper</Filter>
+    </None>
+    <None Include="excellon\excellon.pri">
+      <Filter>excellon</Filter>
+    </None>
+    <None Include="excellon\excellondialog.ui">
+      <Filter>excellon</Filter>
+    </None>
+    <None Include="excellon\extypes.h~RF2150cc1.TMP">
+      <Filter>excellon</Filter>
+    </None>
+    <None Include="gerber\gerber.pri">
+      <Filter>gerber</Filter>
+    </None>
+    <None Include="file\file.pri">
+      <Filter>file</Filter>
+    </None>
+    <None Include="graphicsview\graphicsview.pri">
+      <Filter>graphicsview</Filter>
+    </None>
+    <None Include="icons\breeze\index.theme">
+      <Filter>icons\breeze</Filter>
+    </None>
+    <None Include="G2G\forms\gcodepropertiesform.ui">
+      <Filter>G2G\forms</Filter>
+    </None>
+    <None Include="G2G\forms\pocketoffsetform.ui">
+      <Filter>G2G\forms</Filter>
+    </None>
+    <None Include="G2G\forms\pocketrasterform.ui">
+      <Filter>G2G\forms</Filter>
+    </None>
+    <None Include="G2G\forms\profileform.ui">
+      <Filter>G2G\forms</Filter>
+    </None>
+    <None Include="G2G\forms\voronoiform.ui">
+      <Filter>G2G\forms</Filter>
+    </None>
+    <None Include="gcode\gcode.pri">
+      <Filter>gcode</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="G2G\myapp.rc">
+      <Filter>G2G</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="icons\colors.txt">
+      <Filter>icons</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <Object Include="..\build-GX2_TOOLS-Desktop_Qt_5_14_1_MSVC2017_64bit-Debug\G2G\debug\moc_gbrcomponent.obj">
+      <Filter>Generated Files</Filter>
+    </Object>
+    <Object Include="..\build-GX2_TOOLS-Desktop_Qt_5_14_1_MSVC2017_64bit-Debug\G2G\debug\moc_gbrattributes.obj">
+      <Filter>Generated Files</Filter>
+    </Object>
+  </ItemGroup>
+</Project>

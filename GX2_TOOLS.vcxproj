@@ -1,0 +1,423 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="G2G\256.png" />
+    <Image Include="G2G\myapp.ico" />
+    <Image Include="G2G\res\256.png" />
+    <Image Include="G2G\res\tool\drill.png" />
+    <Image Include="G2G\res\tool\endmill.png" />
+    <Image Include="G2G\res\tool\engraving.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\build-GX2_TOOLS-Desktop_Qt_5_14_1_MSVC2017_64bit-Debug\G2G\debug\moc_aboutform.cpp" />
+    <ClCompile Include="..\build-GX2_TOOLS-Desktop_Qt_5_14_1_MSVC2017_64bit-Debug\G2G\debug\moc_application.cpp" />
+    <ClCompile Include="..\build-GX2_TOOLS-Desktop_Qt_5_14_1_MSVC2017_64bit-Debug\G2G\debug\moc_bridgeitem.cpp" />
+    <ClCompile Include="..\build-GX2_TOOLS-Desktop_Qt_5_14_1_MSVC2017_64bit-Debug\G2G\debug\moc_colorselector.cpp" />
+    <ClCompile Include="..\build-GX2_TOOLS-Desktop_Qt_5_14_1_MSVC2017_64bit-Debug\G2G\debug\moc_depthform.cpp" />
+    <ClCompile Include="..\build-GX2_TOOLS-Desktop_Qt_5_14_1_MSVC2017_64bit-Debug\G2G\debug\moc_drillform.cpp" />
+    <ClCompile Include="..\build-GX2_TOOLS-Desktop_Qt_5_14_1_MSVC2017_64bit-Debug\G2G\debug\moc_drillmodel.cpp" />
+    <ClCompile Include="..\build-GX2_TOOLS-Desktop_Qt_5_14_1_MSVC2017_64bit-Debug\G2G\debug\moc_drillnode.cpp" />
+    <ClCompile Include="..\build-GX2_TOOLS-Desktop_Qt_5_14_1_MSVC2017_64bit-Debug\G2G\debug\moc_excellondialog.cpp" />
+    <ClCompile Include="..\build-GX2_TOOLS-Desktop_Qt_5_14_1_MSVC2017_64bit-Debug\G2G\debug\moc_exparser.cpp" />
+    <ClCompile Include="..\build-GX2_TOOLS-Desktop_Qt_5_14_1_MSVC2017_64bit-Debug\G2G\debug\moc_filemodel.cpp" />
+    <ClCompile Include="..\build-GX2_TOOLS-Desktop_Qt_5_14_1_MSVC2017_64bit-Debug\G2G\debug\moc_formsutil.cpp" />
+    <ClCompile Include="..\build-GX2_TOOLS-Desktop_Qt_5_14_1_MSVC2017_64bit-Debug\G2G\debug\moc_gbrparser.cpp" />
+    <ClCompile Include="..\build-GX2_TOOLS-Desktop_Qt_5_14_1_MSVC2017_64bit-Debug\G2G\debug\moc_gccreator.cpp" />
+    <ClCompile Include="..\build-GX2_TOOLS-Desktop_Qt_5_14_1_MSVC2017_64bit-Debug\G2G\debug\moc_gcodepropertiesform.cpp" />
+    <ClCompile Include="..\build-GX2_TOOLS-Desktop_Qt_5_14_1_MSVC2017_64bit-Debug\G2G\debug\moc_gerbernode.cpp" />
+    <ClCompile Include="..\build-GX2_TOOLS-Desktop_Qt_5_14_1_MSVC2017_64bit-Debug\G2G\debug\moc_graphicsview.cpp" />
+    <ClCompile Include="..\build-GX2_TOOLS-Desktop_Qt_5_14_1_MSVC2017_64bit-Debug\G2G\debug\moc_layerdelegate.cpp" />
+    <ClCompile Include="..\build-GX2_TOOLS-Desktop_Qt_5_14_1_MSVC2017_64bit-Debug\G2G\debug\moc_mainwindow.cpp" />
+    <ClCompile Include="..\build-GX2_TOOLS-Desktop_Qt_5_14_1_MSVC2017_64bit-Debug\G2G\debug\moc_parser.cpp" />
+    <ClCompile Include="..\build-GX2_TOOLS-Desktop_Qt_5_14_1_MSVC2017_64bit-Debug\G2G\debug\moc_pocketoffsetform.cpp" />
+    <ClCompile Include="..\build-GX2_TOOLS-Desktop_Qt_5_14_1_MSVC2017_64bit-Debug\G2G\debug\moc_pocketrasterform.cpp" />
+    <ClCompile Include="..\build-GX2_TOOLS-Desktop_Qt_5_14_1_MSVC2017_64bit-Debug\G2G\debug\moc_profileform.cpp" />
+    <ClCompile Include="..\build-GX2_TOOLS-Desktop_Qt_5_14_1_MSVC2017_64bit-Debug\G2G\debug\moc_project.cpp" />
+    <ClCompile Include="..\build-GX2_TOOLS-Desktop_Qt_5_14_1_MSVC2017_64bit-Debug\G2G\debug\moc_qdruler.cpp" />
+    <ClCompile Include="..\build-GX2_TOOLS-Desktop_Qt_5_14_1_MSVC2017_64bit-Debug\G2G\debug\moc_settingsdialog.cpp" />
+    <ClCompile Include="..\build-GX2_TOOLS-Desktop_Qt_5_14_1_MSVC2017_64bit-Debug\G2G\debug\moc_thermaldelegate.cpp" />
+    <ClCompile Include="..\build-GX2_TOOLS-Desktop_Qt_5_14_1_MSVC2017_64bit-Debug\G2G\debug\moc_thermalform.cpp" />
+    <ClCompile Include="..\build-GX2_TOOLS-Desktop_Qt_5_14_1_MSVC2017_64bit-Debug\G2G\debug\moc_thermalmodel.cpp" />
+    <ClCompile Include="..\build-GX2_TOOLS-Desktop_Qt_5_14_1_MSVC2017_64bit-Debug\G2G\debug\moc_tooldatabase.cpp" />
+    <ClCompile Include="..\build-GX2_TOOLS-Desktop_Qt_5_14_1_MSVC2017_64bit-Debug\G2G\debug\moc_tooleditdialog.cpp" />
+    <ClCompile Include="..\build-GX2_TOOLS-Desktop_Qt_5_14_1_MSVC2017_64bit-Debug\G2G\debug\moc_tooleditform.cpp" />
+    <ClCompile Include="..\build-GX2_TOOLS-Desktop_Qt_5_14_1_MSVC2017_64bit-Debug\G2G\debug\moc_toolmodel.cpp" />
+    <ClCompile Include="..\build-GX2_TOOLS-Desktop_Qt_5_14_1_MSVC2017_64bit-Debug\G2G\debug\moc_toolname.cpp" />
+    <ClCompile Include="..\build-GX2_TOOLS-Desktop_Qt_5_14_1_MSVC2017_64bit-Debug\G2G\debug\moc_tooltreeview.cpp" />
+    <ClCompile Include="..\build-GX2_TOOLS-Desktop_Qt_5_14_1_MSVC2017_64bit-Debug\G2G\debug\moc_treeview.cpp" />
+    <ClCompile Include="..\build-GX2_TOOLS-Desktop_Qt_5_14_1_MSVC2017_64bit-Debug\G2G\debug\moc_voronoiform.cpp" />
+    <ClCompile Include="..\build-GX2_TOOLS-Desktop_Qt_5_14_1_MSVC2017_64bit-Debug\G2G\debug\qrc_resources.cpp" />
+    <ClCompile Include="clipper\clipper.cpp" />
+    <ClCompile Include="clipper\line.cpp" />
+    <ClCompile Include="clipper\myclipper.cpp" />
+    <ClCompile Include="excellon\excellondialog.cpp" />
+    <ClCompile Include="excellon\exfile.cpp" />
+    <ClCompile Include="excellon\exformatstate.cpp" />
+    <ClCompile Include="excellon\exparser.cpp" />
+    <ClCompile Include="file\abstractfile.cpp" />
+    <ClCompile Include="file\parser.cpp" />
+    <ClCompile Include="G2G\aboutform.cpp" />
+    <ClCompile Include="G2G\colorselector.cpp" />
+    <ClCompile Include="G2G\doublespinbox.cpp" />
+    <ClCompile Include="G2G\filetree\abstractnode.cpp" />
+    <ClCompile Include="G2G\filetree\drillnode.cpp" />
+    <ClCompile Include="G2G\filetree\filemodel.cpp" />
+    <ClCompile Include="G2G\filetree\foldernode.cpp" />
+    <ClCompile Include="G2G\filetree\gcodenode.cpp" />
+    <ClCompile Include="G2G\filetree\gerbernode.cpp" />
+    <ClCompile Include="G2G\filetree\layerdelegate.cpp" />
+    <ClCompile Include="G2G\filetree\treeview.cpp" />
+    <ClCompile Include="G2G\forms\depthform.cpp" />
+    <ClCompile Include="G2G\forms\drillform\drillform.cpp" />
+    <ClCompile Include="G2G\forms\drillform\drillmodel.cpp" />
+    <ClCompile Include="G2G\forms\drillform\drillpreviewgi.cpp" />
+    <ClCompile Include="G2G\forms\formsutil.cpp" />
+    <ClCompile Include="G2G\forms\gcodepropertiesform.cpp" />
+    <ClCompile Include="G2G\forms\pocketoffsetform.cpp" />
+    <ClCompile Include="G2G\forms\pocketrasterform.cpp" />
+    <ClCompile Include="G2G\forms\profileform.cpp" />
+    <ClCompile Include="G2G\forms\thermal\thermaldelegate.cpp" />
+    <ClCompile Include="G2G\forms\thermal\thermalform.cpp" />
+    <ClCompile Include="G2G\forms\thermal\thermalmodel.cpp" />
+    <ClCompile Include="G2G\forms\thermal\thermalnode.cpp" />
+    <ClCompile Include="G2G\forms\thermal\thermalpreviewitem.cpp" />
+    <ClCompile Include="G2G\forms\toolname.cpp" />
+    <ClCompile Include="G2G\forms\voronoiform.cpp" />
+    <ClCompile Include="G2G\gi\aperturepathitem.cpp" />
+    <ClCompile Include="G2G\gi\bridgeitem.cpp" />
+    <ClCompile Include="G2G\gi\componentitem.cpp" />
+    <ClCompile Include="G2G\gi\drillitem.cpp" />
+    <ClCompile Include="G2G\gi\gerberitem.cpp" />
+    <ClCompile Include="G2G\gi\graphicsitem.cpp" />
+    <ClCompile Include="G2G\gi\itemgroup.cpp" />
+    <ClCompile Include="G2G\gi\pathitem.cpp" />
+    <ClCompile Include="G2G\main.cpp" />
+    <ClCompile Include="G2G\mainwindow.cpp" />
+    <ClCompile Include="G2G\point.cpp" />
+    <ClCompile Include="G2G\project.cpp" />
+    <ClCompile Include="G2G\settings.cpp" />
+    <ClCompile Include="G2G\settingsdialog.cpp" />
+    <ClCompile Include="G2G\sh\circle.cpp" />
+    <ClCompile Include="G2G\sh\constructor.cpp" />
+    <ClCompile Include="G2G\sh\handler.cpp" />
+    <ClCompile Include="G2G\sh\rectangle.cpp" />
+    <ClCompile Include="G2G\sh\sh.cpp" />
+    <ClCompile Include="G2G\sh\shape.cpp" />
+    <ClCompile Include="G2G\tooldatabase\tool.cpp" />
+    <ClCompile Include="G2G\tooldatabase\tooldatabase.cpp" />
+    <ClCompile Include="G2G\tooldatabase\tooleditdialog.cpp" />
+    <ClCompile Include="G2G\tooldatabase\tooleditform.cpp" />
+    <ClCompile Include="G2G\tooldatabase\toolitem.cpp" />
+    <ClCompile Include="G2G\tooldatabase\toolmodel.cpp" />
+    <ClCompile Include="G2G\tooldatabase\tooltreeview.cpp" />
+    <ClCompile Include="gcode\gccreator.cpp" />
+    <ClCompile Include="gcode\gcfile.cpp" />
+    <ClCompile Include="gcode\gcpocketoffset.cpp" />
+    <ClCompile Include="gcode\gcpocketraster.cpp" />
+    <ClCompile Include="gcode\gcprofile.cpp" />
+    <ClCompile Include="gcode\gcthermal.cpp" />
+    <ClCompile Include="gcode\gcvoronoi.cpp" />
+    <ClCompile Include="gcode\voroni\jc_voronoi.cpp" />
+    <ClCompile Include="gerber\gbraperture.cpp" />
+    <ClCompile Include="gerber\gbrattributes.cpp" />
+    <ClCompile Include="gerber\gbrcomponent.cpp" />
+    <ClCompile Include="gerber\gbrfile.cpp" />
+    <ClCompile Include="gerber\gbrparser.cpp" />
+    <ClCompile Include="gerber\mathparser.cpp" />
+    <ClCompile Include="graphicsview\edid.cpp" />
+    <ClCompile Include="graphicsview\graphicsview.cpp" />
+    <ClCompile Include="graphicsview\qdruler.cpp" />
+    <ClCompile Include="graphicsview\scene.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\build-GX2_TOOLS-Desktop_Qt_5_14_1_MSVC2017_64bit-Debug\G2G\debug\moc_predefs.h" />
+    <ClInclude Include="clipper\clipper.hpp" />
+    <ClInclude Include="clipper\line.h" />
+    <ClInclude Include="clipper\myclipper.h" />
+    <ClInclude Include="excellon\excellon.h" />
+    <ClInclude Include="excellon\excellondialog.h" />
+    <ClInclude Include="excellon\exfile.h" />
+    <ClInclude Include="excellon\exparser.h" />
+    <ClInclude Include="excellon\extypes.h" />
+    <ClInclude Include="file\abstractfile.h" />
+    <ClInclude Include="file\parser.h" />
+    <ClInclude Include="G2G\aboutform.h" />
+    <ClInclude Include="G2G\application.h" />
+    <ClInclude Include="G2G\colorselector.h" />
+    <ClInclude Include="G2G\datastream.h" />
+    <ClInclude Include="G2G\doublespinbox.h" />
+    <ClInclude Include="G2G\filetree\abstractnode.h" />
+    <ClInclude Include="G2G\filetree\drillnode.h" />
+    <ClInclude Include="G2G\filetree\filemodel.h" />
+    <ClInclude Include="G2G\filetree\foldernode.h" />
+    <ClInclude Include="G2G\filetree\gcodenode.h" />
+    <ClInclude Include="G2G\filetree\gerbernode.h" />
+    <ClInclude Include="G2G\filetree\layerdelegate.h" />
+    <ClInclude Include="G2G\filetree\treeview.h" />
+    <ClInclude Include="G2G\forms\depthform.h" />
+    <ClInclude Include="G2G\forms\drillform\drillform.h" />
+    <ClInclude Include="G2G\forms\drillform\drillmodel.h" />
+    <ClInclude Include="G2G\forms\drillform\drillpreviewgi.h" />
+    <ClInclude Include="G2G\forms\formsutil.h" />
+    <ClInclude Include="G2G\forms\gcodepropertiesform.h" />
+    <ClInclude Include="G2G\forms\pocketoffsetform.h" />
+    <ClInclude Include="G2G\forms\pocketrasterform.h" />
+    <ClInclude Include="G2G\forms\profileform.h" />
+    <ClInclude Include="G2G\forms\thermal\thermaldelegate.h" />
+    <ClInclude Include="G2G\forms\thermal\thermalform.h" />
+    <ClInclude Include="G2G\forms\thermal\thermalmodel.h" />
+    <ClInclude Include="G2G\forms\thermal\thermalnode.h" />
+    <ClInclude Include="G2G\forms\thermal\thermalpreviewitem.h" />
+    <ClInclude Include="G2G\forms\toolname.h" />
+    <ClInclude Include="G2G\forms\voronoiform.h" />
+    <ClInclude Include="G2G\gi\aperturepathitem.h" />
+    <ClInclude Include="G2G\gi\bridgeitem.h" />
+    <ClInclude Include="G2G\gi\componentitem.h" />
+    <ClInclude Include="G2G\gi\drillitem.h" />
+    <ClInclude Include="G2G\gi\gerberitem.h" />
+    <ClInclude Include="G2G\gi\graphicsitem.h" />
+    <ClInclude Include="G2G\gi\itemgroup.h" />
+    <ClInclude Include="G2G\gi\pathitem.h" />
+    <ClInclude Include="G2G\mainwindow.h" />
+    <ClInclude Include="G2G\openingdialog.h" />
+    <ClInclude Include="G2G\point.h" />
+    <ClInclude Include="G2G\project.h" />
+    <ClInclude Include="G2G\settings.h" />
+    <ClInclude Include="G2G\settingsdialog.h" />
+    <ClInclude Include="G2G\sh\circle.h" />
+    <ClInclude Include="G2G\sh\constructor.h" />
+    <ClInclude Include="G2G\sh\handler.h" />
+    <ClInclude Include="G2G\sh\rectangle.h" />
+    <ClInclude Include="G2G\sh\sh.h" />
+    <ClInclude Include="G2G\sh\shape.h" />
+    <ClInclude Include="G2G\tooldatabase\tool.h" />
+    <ClInclude Include="G2G\tooldatabase\tooldatabase.h" />
+    <ClInclude Include="G2G\tooldatabase\tooleditdialog.h" />
+    <ClInclude Include="G2G\tooldatabase\tooleditform.h" />
+    <ClInclude Include="G2G\tooldatabase\toolitem.h" />
+    <ClInclude Include="G2G\tooldatabase\toolmodel.h" />
+    <ClInclude Include="G2G\tooldatabase\tooltreeview.h" />
+    <ClInclude Include="G2G\version.h" />
+    <ClInclude Include="gcode\gccreator.h" />
+    <ClInclude Include="gcode\gcfile.h" />
+    <ClInclude Include="gcode\gcpocketoffset.h" />
+    <ClInclude Include="gcode\gcpocketraster.h" />
+    <ClInclude Include="gcode\gcprofile.h" />
+    <ClInclude Include="gcode\gcthermal.h" />
+    <ClInclude Include="gcode\gctypes.h" />
+    <ClInclude Include="gcode\gcvoronoi.h" />
+    <ClInclude Include="gcode\voroni\jc_voronoi.h" />
+    <ClInclude Include="gerber\gbraperture.h" />
+    <ClInclude Include="gerber\gbrattributes.h" />
+    <ClInclude Include="gerber\gbrcomponent.h" />
+    <ClInclude Include="gerber\gbrfile.h" />
+    <ClInclude Include="gerber\gbrparser.h" />
+    <ClInclude Include="gerber\gbrtypes.h" />
+    <ClInclude Include="gerber\mathparser.h" />
+    <ClInclude Include="graphicsview\edid.h" />
+    <ClInclude Include="graphicsview\graphicsview.h" />
+    <ClInclude Include="graphicsview\qdruler.h" />
+    <ClInclude Include="graphicsview\scene.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="clipper\clipper.pri" />
+    <None Include="excellon\excellon.pri" />
+    <None Include="excellon\excellondialog.ui" />
+    <None Include="excellon\extypes.h~RF2150cc1.TMP" />
+    <None Include="file\file.pri" />
+    <None Include="G2G\aboutform.ui" />
+    <None Include="G2G\colorselector.ui" />
+    <None Include="G2G\colorsetup.ui" />
+    <None Include="G2G\forms\drillform\drillform.ui" />
+    <None Include="G2G\forms\gcodepropertiesform.ui" />
+    <None Include="G2G\forms\pocketoffsetform.ui" />
+    <None Include="G2G\forms\pocketrasterform.ui" />
+    <None Include="G2G\forms\profileform.ui" />
+    <None Include="G2G\forms\thermal\thermalform.ui" />
+    <None Include="G2G\forms\voronoiform.ui" />
+    <None Include="G2G\G2G.pro" />
+    <None Include="G2G\G2G_TR.pro" />
+    <None Include="G2G\mainwindow.ui" />
+    <None Include="G2G\res\qtreeviewstylesheet\QTreeView.qss" />
+    <None Include="G2G\res\resources.qrc" />
+    <None Include="G2G\res\toolpath\pock_offs_climb.svg" />
+    <None Include="G2G\res\toolpath\pock_offs_conv.svg" />
+    <None Include="G2G\res\toolpath\pock_rast_climb.svg" />
+    <None Include="G2G\res\toolpath\pock_rast_conv.svg" />
+    <None Include="G2G\res\toolpath\prof_in_climb.svg" />
+    <None Include="G2G\res\toolpath\prof_in_conv.svg" />
+    <None Include="G2G\res\toolpath\prof_on_climb.svg" />
+    <None Include="G2G\res\toolpath\prof_on_conv.svg" />
+    <None Include="G2G\res\toolpath\prof_out_climb.svg" />
+    <None Include="G2G\res\toolpath\prof_out_conv.svg" />
+    <None Include="G2G\settingsdialog.ui" />
+    <None Include="G2G\tooldatabase\tooldatabase.ui" />
+    <None Include="G2G\tooldatabase\tooleditdialog.ui" />
+    <None Include="G2G\tooldatabase\tooleditform.ui" />
+    <None Include="G2G\translations\g2g_en.qm" />
+    <None Include="G2G\translations\g2g_en.ts" />
+    <None Include="G2G\translations\g2g_ru.qm" />
+    <None Include="G2G\translations\g2g_ru.ts" />
+    <None Include="G2G\translations\qtbase_ru.qm" />
+    <None Include="G2G\translations\qt_ru.qm" />
+    <None Include="gcode\gcode.pri" />
+    <None Include="gerber\gerber.pri" />
+    <None Include="graphicsview\graphicsview.pri" />
+    <None Include="icons\breeze\index.theme" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="G2G\myapp.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="icons\colors.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Object Include="..\build-GX2_TOOLS-Desktop_Qt_5_14_1_MSVC2017_64bit-Debug\G2G\debug\moc_gbrattributes.obj" />
+    <Object Include="..\build-GX2_TOOLS-Desktop_Qt_5_14_1_MSVC2017_64bit-Debug\G2G\debug\moc_gbrcomponent.obj" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{5746F5D8-10AC-3EB2-B23C-393565136AED}</ProjectGuid>
+    <RootNamespace>GX2_TOOLS</RootNamespace>
+    <Keyword>Qt4VSv1.0</Keyword>
+    <WindowsTargetPlatformVersion>10.0.18362.0</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformMinVersion>10.0.18362.0</WindowsTargetPlatformMinVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <PlatformToolset>v142</PlatformToolset>
+    <OutputDirectory>release\</OutputDirectory>
+    <ATLMinimizesCRunTimeLibraryUsage>false</ATLMinimizesCRunTimeLibraryUsage>
+    <CharacterSet>NotSet</CharacterSet>
+    <ConfigurationType>Application</ConfigurationType>
+    <IntermediateDirectory>release\</IntermediateDirectory>
+    <PrimaryOutput>GX2_TOOLS</PrimaryOutput>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <PlatformToolset>v142</PlatformToolset>
+    <OutputDirectory>debug\</OutputDirectory>
+    <ATLMinimizesCRunTimeLibraryUsage>false</ATLMinimizesCRunTimeLibraryUsage>
+    <CharacterSet>NotSet</CharacterSet>
+    <ConfigurationType>Application</ConfigurationType>
+    <IntermediateDirectory>debug\</IntermediateDirectory>
+    <PrimaryOutput>GX2_TOOLS</PrimaryOutput>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings" />
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">GX2_TOOLS</TargetName>
+    <IgnoreImportLibrary Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</IgnoreImportLibrary>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">GX2_TOOLS</TargetName>
+    <IgnoreImportLibrary Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</IgnoreImportLibrary>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>.;G:\dev\Qt\5.12.5\msvc2015_64\include;G:\dev\Qt\5.12.5\msvc2015_64\include\QtGui;G:\dev\Qt\5.12.5\msvc2015_64\include\QtANGLE;G:\dev\Qt\5.12.5\msvc2015_64\include\QtCore;release;/include;G:\dev\Qt\5.12.5\msvc2015_64\mkspecs\win32-msvc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>-Zc:rvalueCast -Zc:inline -Zc:strictStrings -Zc:throwingNew -Zc:referenceBinding -Zc:__cplusplus -w34100 -w34189 -w44996 -w44456 -w44457 -w44458 %(AdditionalOptions)</AdditionalOptions>
+      <AssemblerListingLocation>release\</AssemblerListingLocation>
+      <BrowseInformation>false</BrowseInformation>
+      <DebugInformationFormat>None</DebugInformationFormat>
+      <DisableSpecificWarnings>4577;4467;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <LanguageStandard>stdcpp14</LanguageStandard>
+      <ObjectFileName>release\</ObjectFileName>
+      <Optimization>MaxSpeed</Optimization>
+      <PreprocessorDefinitions>_WINDOWS;UNICODE;_UNICODE;WIN32;_ENABLE_EXTENDED_ALIGNED_STORAGE;WIN64;QT_NO_DEBUG;QT_GUI_LIB;QT_CORE_LIB;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessToFile>false</PreprocessToFile>
+      <ProgramDataBaseFileName>
+      </ProgramDataBaseFileName>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TreatWChar_tAsBuiltInType>true</TreatWChar_tAsBuiltInType>
+      <WarningLevel>Level3</WarningLevel>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>G:\dev\Qt\5.12.5\msvc2015_64\lib\Qt5Gui.lib;G:\dev\Qt\5.12.5\msvc2015_64\lib\Qt5Core.lib;G:\dev\Qt\5.12.5\msvc2015_64\lib\qtmain.lib;shell32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:\openssl\lib;C:\Utils\my_sql\mysql-5.6.11-winx64\lib;C:\Utils\postgresql\pgsql\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>"/MANIFESTDEPENDENCY:type='win32' name='Microsoft.Windows.Common-Controls' version='6.0.0.0' publicKeyToken='6595b64144ccf1df' language='*' processorArchitecture='*'" %(AdditionalOptions)</AdditionalOptions>
+      <DataExecutionPrevention>true</DataExecutionPrevention>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreImportLibrary>true</IgnoreImportLibrary>
+      <LinkIncremental>false</LinkIncremental>
+      <OutputFile>$(OutDir)\GX2_TOOLS.exe</OutputFile>
+      <RandomizedBaseAddress>true</RandomizedBaseAddress>
+      <SubSystem>Windows</SubSystem>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+    </Link>
+    <Midl>
+      <DefaultCharType>Unsigned</DefaultCharType>
+      <EnableErrorChecks>None</EnableErrorChecks>
+      <WarningLevel>0</WarningLevel>
+    </Midl>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_WINDOWS;UNICODE;_UNICODE;WIN32;_ENABLE_EXTENDED_ALIGNED_STORAGE;WIN64;QT_NO_DEBUG;QT_GUI_LIB;QT_CORE_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>.\graphicsview;.\clipper;.\file;.\graphicsview;.\gcode;.\gerber;.\G2G;.\excellon;.;G:\dev\Qt5\5.14.1\msvc2017_64\include;G:\dev\Qt5\5.14.1\msvc2017_64\include\QtGui;G:\dev\Qt5\5.14.1\msvc2017_64\include\QtANGLE;G:\dev\Qt5\5.14.1\msvc2017_64\include\QtCore;debug;/include;G:\dev\Qt5\5.14.1\msvc2017_64\mkspecs\win32-msvc;D:\Projects\Gerber\build-GX2_TOOLS-Desktop_Qt_5_14_1_MSVC2017_64bit-Debug\G2G;G:\dev\Qt5\5.14.1\msvc2017_64\include\QtWidgets</AdditionalIncludeDirectories>
+      <AdditionalOptions>-Zc:rvalueCast -Zc:inline -Zc:strictStrings -Zc:throwingNew -Zc:referenceBinding -Zc:__cplusplus -w34100 -w34189 -w44996 -w44456 -w44457 -w44458 -std:c++latest %(AdditionalOptions)</AdditionalOptions>
+      <AssemblerListingLocation>debug\</AssemblerListingLocation>
+      <BrowseInformation>false</BrowseInformation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4577;4467;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <LanguageStandard>stdcpp14</LanguageStandard>
+      <ObjectFileName>debug\</ObjectFileName>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_VISUALSTUDIO;_WINDOWS;UNICODE;_UNICODE;WIN32;_ENABLE_EXTENDED_ALIGNED_STORAGE;WIN64;QT_GUI_LIB;QT_CORE_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessToFile>false</PreprocessToFile>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TreatWChar_tAsBuiltInType>true</TreatWChar_tAsBuiltInType>
+      <WarningLevel>Level3</WarningLevel>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>SetupAPI.lib;shell32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>"/MANIFESTDEPENDENCY:type='win32' name='Microsoft.Windows.Common-Controls' version='6.0.0.0' publicKeyToken='6595b64144ccf1df' language='*' processorArchitecture='*'" %(AdditionalOptions)</AdditionalOptions>
+      <DataExecutionPrevention>true</DataExecutionPrevention>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreImportLibrary>true</IgnoreImportLibrary>
+      <OutputFile>bin\GX2_TOOLSd.exe</OutputFile>
+      <RandomizedBaseAddress>true</RandomizedBaseAddress>
+      <SubSystem>Windows</SubSystem>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+    </Link>
+    <Midl>
+      <DefaultCharType>Unsigned</DefaultCharType>
+      <EnableErrorChecks>None</EnableErrorChecks>
+      <WarningLevel>0</WarningLevel>
+    </Midl>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_WINDOWS;UNICODE;_UNICODE;WIN32;_ENABLE_EXTENDED_ALIGNED_STORAGE;WIN64;QT_GUI_LIB;QT_CORE_LIB;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <PostBuildEvent>
+      <Command>
+      </Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets" />
+</Project>
