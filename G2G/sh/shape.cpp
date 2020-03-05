@@ -15,7 +15,10 @@ QRectF Shape::boundingRect() const { return m_shape.boundingRect() /* + QMargins
 
 QPainterPath Shape::shape() const { return m_shape; }
 
-Paths Shape::paths() const { return m_paths; }
+Paths Shape::paths() const 
+{
+    return m_paths; 
+}
 
 void Shape::mouseDoubleClickEvent(QGraphicsSceneMouseEvent* event)
 {

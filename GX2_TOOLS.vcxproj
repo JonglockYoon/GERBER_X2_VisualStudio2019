@@ -31,6 +31,8 @@
     <ClCompile Include="..\build-GX2_TOOLS-Desktop_Qt_5_14_1_MSVC2017_64bit-Debug\G2G\debug\moc_exparser.cpp" />
     <ClCompile Include="..\build-GX2_TOOLS-Desktop_Qt_5_14_1_MSVC2017_64bit-Debug\G2G\debug\moc_filemodel.cpp" />
     <ClCompile Include="..\build-GX2_TOOLS-Desktop_Qt_5_14_1_MSVC2017_64bit-Debug\G2G\debug\moc_formsutil.cpp" />
+    <ClCompile Include="..\build-GX2_TOOLS-Desktop_Qt_5_14_1_MSVC2017_64bit-Debug\G2G\debug\moc_gbrattributes.cpp" />
+    <ClCompile Include="..\build-GX2_TOOLS-Desktop_Qt_5_14_1_MSVC2017_64bit-Debug\G2G\debug\moc_gbrcomponent.cpp" />
     <ClCompile Include="..\build-GX2_TOOLS-Desktop_Qt_5_14_1_MSVC2017_64bit-Debug\G2G\debug\moc_gbrparser.cpp" />
     <ClCompile Include="..\build-GX2_TOOLS-Desktop_Qt_5_14_1_MSVC2017_64bit-Debug\G2G\debug\moc_gccreator.cpp" />
     <ClCompile Include="..\build-GX2_TOOLS-Desktop_Qt_5_14_1_MSVC2017_64bit-Debug\G2G\debug\moc_gcodepropertiesform.cpp" />
@@ -280,10 +282,6 @@
   </ItemGroup>
   <ItemGroup>
     <Text Include="icons\colors.txt" />
-  </ItemGroup>
-  <ItemGroup>
-    <Object Include="..\build-GX2_TOOLS-Desktop_Qt_5_14_1_MSVC2017_64bit-Debug\G2G\debug\moc_gbrattributes.obj" />
-    <Object Include="..\build-GX2_TOOLS-Desktop_Qt_5_14_1_MSVC2017_64bit-Debug\G2G\debug\moc_gbrcomponent.obj" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{5746F5D8-10AC-3EB2-B23C-393565136AED}</ProjectGuid>

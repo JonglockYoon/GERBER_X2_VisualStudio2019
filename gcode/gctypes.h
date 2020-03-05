@@ -78,19 +78,19 @@ struct GCodeParams {
 
     friend QDataStream& operator>>(QDataStream& stream, GCodeParams& type)
     {
-        stream >> type;
-        //stream >> type.tools;
-        //stream >> type.params;
-        //stream >> type.gcType;
+        int val;
+        stream >> type.tools;
+        stream >> type.params;
+        stream >> val;
+        type.gcType = (GCodeType)val;
         return stream;
     }
 
     friend QDataStream& operator<<(QDataStream& stream, const GCodeParams& type)
     {
-        stream << type;
-        //stream << type.tools;
-        //stream << type.params;
-        //stream << type.gcType;
+        stream << type.tools;
+        stream << type.params;
+        stream << (int)type.gcType;
         return stream;
     }
 

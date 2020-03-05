@@ -7,6 +7,8 @@
 
 namespace ShapePr {
 
+int Constructor::id = 0x0FFFFF;// QGraphicsItem::UserType;
+
 PrType Constructor::type = NullPT;
 int Constructor::counter = 0;
 QPointF Constructor::point;
@@ -20,6 +22,7 @@ void Constructor::setSnap(bool snap) { m_snap = snap; }
 
 void Constructor::addShapePoint(const QPointF& value)
 {
+    GraphicsItem* gitem;
     point = value;
     switch (type) {
     case Rect:
@@ -27,6 +30,8 @@ void Constructor::addShapePoint(const QPointF& value)
         switch (counter) {
         case 0:
             item = new Rectangle(point, point + QPointF{ 1, 1 });
+            gitem = reinterpret_cast<GraphicsItem*>(item);
+            gitem->setId(id++);
             break;
         default:
             type = NullPT;
@@ -42,6 +47,8 @@ void Constructor::addShapePoint(const QPointF& value)
         switch (counter) {
         case 0:
             item = new Circle(point, point + QPointF{ 1, 1 });
+            gitem = reinterpret_cast<GraphicsItem*>(item);
+            gitem->setId(id++);
             break;
         default:
             type = NullPT;

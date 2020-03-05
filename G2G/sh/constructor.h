@@ -34,6 +34,7 @@ public:
 
 private:
     static QAction* action;
+    static int id;
 };
 
 } // namespace ShapePr

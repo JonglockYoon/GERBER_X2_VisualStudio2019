@@ -147,22 +147,23 @@ struct Format {
 
     friend QDataStream& operator<<(QDataStream& stream, const Format& fmt)
     {
-        stream << fmt;
-        //stream << fmt.zeroMode;
-        //stream << fmt.unitMode;
-        //stream << fmt.decimal;
-        //stream << fmt.integer;
-        //stream << fmt.offsetPos;
+        stream << (int)fmt.zeroMode;
+        stream << (int)fmt.unitMode;
+        stream << fmt.decimal;
+        stream << fmt.integer;
+        stream << fmt.offsetPos;
         return stream;
     }
     friend QDataStream& operator>>(QDataStream& stream, Format& fmt)
     {
-        stream >> fmt;
-        //stream >> fmt.zeroMode;
-        //stream >> fmt.unitMode;
-        //stream >> fmt.decimal;
-        //stream >> fmt.integer;
-        //stream >> fmt.offsetPos;
+        int val;
+        stream >> val;
+        fmt.zeroMode = (ZeroMode)val;
+        stream >> val;
+        fmt.unitMode = (UnitMode)val;
+        stream >> fmt.decimal;
+        stream >> fmt.integer;
+        stream >> fmt.offsetPos;
         return stream;
     }
 };
@@ -219,28 +220,29 @@ struct State {
 
     friend QDataStream& operator<<(QDataStream& stream, const State& stt)
     {
-        stream << stt;
-        //stream << stt.rawPos;
-        //stream << stt.rawPosList;
-        //stream << stt.gCode;
-        //stream << stt.mCode;
-        //stream << stt.tCode;
-        //stream << stt.pos;
-        //stream << stt.path;
-        //stream << stt.line;
+        stream << stt.rawPos;
+        stream << stt.rawPosList;
+        stream << (int)stt.gCode;
+        stream << (int)stt.mCode;
+        stream << stt.tCode;
+        stream << stt.pos;
+        stream << stt.path;
+        stream << stt.line;
         return stream;
     }
     friend QDataStream& operator>>(QDataStream& stream, State& stt)
     {
-        stream >> stt;
-        //stream >> stt.rawPos;
-        //stream >> stt.rawPosList;
-        //stream >> stt.gCode;
-        //stream >> stt.mCode;
-        //stream >> stt.tCode;
-        //stream >> stt.pos;
-        //stream >> stt.path;
-        //stream >> stt.line;
+        int val;
+        stream >> stt.rawPos;
+        stream >> stt.rawPosList;
+        stream >> val;
+        stt.gCode = (GCode)val;
+        stream >> val;
+        stt.mCode = (MCode)val;
+        stream >> stt.tCode;
+        stream >> stt.pos;
+        stream >> stt.path;
+        stream >> stt.line;
         return stream;
     }
 };

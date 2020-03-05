@@ -49,6 +49,7 @@ public:
     QPen pen() const;
     void setBrush(const QBrush& brush);
     void setPen(const QPen& pen);
+    void setId(const int id) { m_id = id; }
     virtual Paths paths() const = 0;
     virtual Paths* rPaths() { return nullptr; }
     virtual void redraw() {}

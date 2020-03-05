@@ -458,6 +458,12 @@
     <ClCompile Include="gerber\gbrcomponent.cpp">
       <Filter>gerber</Filter>
     </ClCompile>
+    <ClCompile Include="..\build-GX2_TOOLS-Desktop_Qt_5_14_1_MSVC2017_64bit-Debug\G2G\debug\moc_gbrattributes.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\build-GX2_TOOLS-Desktop_Qt_5_14_1_MSVC2017_64bit-Debug\G2G\debug\moc_gbrcomponent.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="G2G\aboutform.h">
@@ -868,13 +874,5 @@
     <Text Include="icons\colors.txt">
       <Filter>icons</Filter>
     </Text>
-  </ItemGroup>
-  <ItemGroup>
-    <Object Include="..\build-GX2_TOOLS-Desktop_Qt_5_14_1_MSVC2017_64bit-Debug\G2G\debug\moc_gbrcomponent.obj">
-      <Filter>Generated Files</Filter>
-    </Object>
-    <Object Include="..\build-GX2_TOOLS-Desktop_Qt_5_14_1_MSVC2017_64bit-Debug\G2G\debug\moc_gbrattributes.obj">
-      <Filter>Generated Files</Filter>
-    </Object>
   </ItemGroup>
 </Project>

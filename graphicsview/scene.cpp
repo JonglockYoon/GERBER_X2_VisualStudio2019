@@ -14,6 +14,8 @@
 #include <settings.h>
 
 #include <gi/gerberitem.h>
+#include <sh/shape.h>
+//#include <sh/sh.h>
 
 Scene* Scene::m_instance = nullptr;
 
@@ -84,15 +86,15 @@ void Scene::itemSelChanged()
     int cnt = si.count();
     for (int i = 0; i < cnt; i++) {
         QGraphicsItem *item = si[i];
-        //if (item->type() == GiGerber) {
-        //    GerberItem* gitem = reinterpret_cast<GerberItem*>(item);
-        //    qInfo() << "gitem id " << gitem->id();
-        //}
-        //else 
+        //if (item->type() == GiGerber) 
         {
             GerberItem* gitem = reinterpret_cast<GerberItem*>(item);
             qInfo() << "gitem type,id " << (int)item->type() << gitem->id();
         }
+        //if (item->type() == GiShapeC) {
+        //    ShapePr::Shape* gitem = reinterpret_cast<ShapePr::Shape*>(item);
+        //    qInfo() << "gitem type,id " << (int)gitem->type() << gitem->id();
+        //}
     }
 
 }
